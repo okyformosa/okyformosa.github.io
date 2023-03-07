@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <title>Oscar Alejandro Ortiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="validar.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body class="fondo">
+    
+    <header>
+        <nav >
+            <ul id="menu">
+                <li><a href="#QuienSoy">Quien Soy</a></li>
+                <li><a href="#Laboral">Experiencia Laboral</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Educacion">Educación</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <a href="https://wa.me/+543704054127/?text=Hola, necesito de tu servicio" target="_blank">
+            <img src="logowhatsapp.png" width="80" height="80" class="botonWhatsapp">
+        </a>
+        <div id="QuienSoy">
+            <div class="grilla">
+                
+                <div >
+                    <h1 class="titulos3">Oscar Alejandro Ortiz</h1> 
+                        <p class="parrafoPersonal">
+                            Programador<br>
+                            Estudiante del 2do año Ciencias de Datos e IA<br>
+                            QA manual<br>
+                            Administrador Salesforce<br>
+                        </p>
+                    </ul>
+                </div>
+                <div id="foto">
+                    
+                    <img src="mono.jpg">
+                
+                </div>
+            </div>
+        
+        <div class="caja1" id="Laboral" >
+            <div class="titulos">
+                <h1>Laboral</h1>
+            </div> 
+            <div>
+                <p class="grilla2">
+                            •	Enseñanza de Informática (Institutos IAC & System y Futuro). Programación Basic, Sistema Operativo DOS.<br>
+
+                            •	Administrativo (Administrativo-Implementación de codificación de productos) – Autoservicio Pájaro Azul.<br>
+                            
+                            También desarrolle software para el etiquetado de los productos en góndola.<br>
+                            
+                            •	Estudio contable Roig y Asociados.<br> 
+                            
+                            Desarrolle software para: liquidaciones de impuestos, libros de IVA, y otros en función de las necesidades contables del estudio. Todos basados en Clarion.<br>
+                            
+                            •	Supermercados Aybar (Administrativo, Encargado del área de sistema e implementación de controladores fiscales, puntos de ventas con lectoras de tarjetas, lectoras de códigos de barras e impresoras fiscales).<br>
+                            Tareas: Control de Stock<br>
+                                    Actualización de Artículos<br>
+                                    Actualización de Precios<br>
+                                    Libro de IVA<br>
+                                    Compra de Puntos de Ventas<br>
+                                    Actualización del sistema comercial<br>
+                            
+                            •	Carsa SA – Red Megatone (Auxiliar de stock - cumpliendo la función de Encargado de Depósito). Dos personas a cargo.<br>
+                            Tareas: Ingreso/Egreso de mercaderías<br>
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="caja1" id="Habilidades">
+                    <div class="titulos">
+                        <h1>Habilidades</h1>
+                    </div>
+                    <div class="grilla2">
+                        <div class="caja2">
+                            <h2>Blandas</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </div>
+                        <div class="caja2">
+                            <h2>Duras</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </div>
+                
+                    </div> 
+                </div>
+                <div class="caja1" id="Educacion">
+                    <div class="titulos">
+                        <h1>Educación</h1>
+                    </div>
+                    <div class="grilla2"> 
+                        <p>•	Secundario completo (Perito Mercantil – Auxiliar en administración)<br>
+                            •	Programación (Python) y Desarrollo Web (html, css)<br>
+                            •	Base de Datos (SQL – Vistas/Transacciones/Proc.Almacenados/Funciones/Triggers).<br>
+                            •	Metodologías Agiles (Scrum).<br>
+                            •	Aplicaciones móviles (AppInventor).<br>
+                            •	Cursando “Técnico superior en Ciencias de Datos e IA”<br>
+                            •	Actualmente Capacitándome en librerías de Python (Numpy, Pandas, Matplotlib)<br>
+                        </p>
+                    </div>
+                
+            </div>
+        
+        </div>
+            
+            
+            <div class="caja1" id="Contacto">
+                    <div class="titulos">
+                        <h1>Formulario de Contacto</h1> 
+                    </div>
+                    <div class="formatoFormulario">
+                        <form name="formulario" onsubmit="validar()">
+                            <label class="formatoCampo" for="nombre">Nombre/s y Apellido:</label>
+                            <input class="formatoImput" type="text" id="nombre" name="nombre" >
+                            <label class="formatoCampo" for="email">Correo:</label>
+                            <input class="formatoImput" type="email" id="email" name="email" >
+                            <label class="formatoCampo" for="mensaje">Mensaje:</label>
+                            <textarea class="mensaje" type="text" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aqui..." ></textarea>
+                            <input type="submit" value="Enviar" id="envia"  >
+                        </form>
+                    </div>
+            </div>
+            
+        
+    </div>
+    
+</body>
+
+<footer>
+    <div class="PiePagina">
+        Pagina en Construccion
+    </div>
+</footer>
+</html>
